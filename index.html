@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Find Number</title>
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <div>
+                <button class="reset">Reset</button>
+            </div>
+            <div class="random-number">
+                ?
+            </div>
+            <div>
+                highScore : 
+                <span class="highScore"></span>
+            </div>
+        </div>
+        <div class="bottom">
+            <p>Enter a number from 1 to 20</p>
+            <div>
+                <input type="number" min="1" max="20" class="myNumber">
+            </div>
+            <p class="notification"></p>
+            <p>Ball : <span class="scoreSpan">20</span></p>
+            <div>
+                <button class="check" disabled>Checker</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
